@@ -1,0 +1,172 @@
+<html>
+
+<head>
+    <title>Home</title>
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: century gothic;
+    }
+
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(123.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+
+    ul {
+        float: right;
+        list-style-type: none;
+        margin-top: 30px;
+    }
+
+    ul li {
+        display: inline-block;
+
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+    }
+
+    ul li.active a {
+        /* background-color: blueviolet; */
+        color: rgb(255, 255, 255);
+        border-bottom: 2px solid purple;
+
+    }
+
+    ul li a:hover {
+        /* background-color: blueviolet; */
+        color: pink;
+        border-bottom: 3px solid purple;
+    }
+
+    .logo img {
+        float: left;
+        width: 150px;
+        height: auto;
+    }
+
+    .main {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%);
+        text-align: center;
+    }
+
+    .title h1 {
+        color: #fff;
+        font-size: 60px;
+    }
+
+    .text-box {
+        width: 200%;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .button {
+        display: inline-block;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .button {
+        display: inline-block;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        color: #06060661;
+        text-decoration: none;
+        font-size: 13px;
+        transition: 0.6s ease;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: rgba(12, 15, 16, 0.750);
+        color: rgb(35, 183, 228);
+    }
+
+    .offers {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <a href="about us.htm">
+                    <!-- <img src="wanderlust (1).jpg"> -->
+                </a>
+            </div>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+
+                <li>
+                    <a href="https://www.swiggy.com/" target="_blank">
+                        Gallery
+                    </a>
+                </li>
+                <li>
+                    <a href="about us.htm">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="Project 3.htm">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="Project -1.htm">
+                        Log Out
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>Tasty Street</h1>
+        </div>
+        <br>
+        <div class="text-box">
+            <h2> Savor the Flavor</h2>
+        </div>
+        <div class="button">
+            <a href="https://www.swiggy.com/" width:1000 height:132>
+                <div style="color: #fff;">
+                    Order Now
+                </div>
+            </a>
+        </div>
+    </header>
+    <div class="row">
+        <div class="course-col"></div>
+    </div>
+</body>
+
+</html>
